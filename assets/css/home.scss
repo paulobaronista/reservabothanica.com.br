@@ -1,0 +1,150 @@
+.faixaHome {
+    background-color: #9e8e52;
+    padding: 18px 0 20px 0;
+
+    p {
+        font-family: 'Gotham';
+        font-weight: 300;
+        font-style: normal;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+.boxLogo {
+    background: url(../images/bg-logo.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.info-home {
+    background-color: #edeae1;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    margin-top: -5px;
+
+    p {
+        font-family: 'Gotham';
+        font-weight: 300;
+        font-style: normal;
+        color: #000;
+        text-transform: uppercase;
+        font-size: 12.5px;
+        line-height: 30px;
+        text-align: justify;
+    }
+
+    .box-info-home {
+        margin-top: 50px;
+    }
+}
+
+.fundoFolha {
+    background: url(../images/bg-folha.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    p {
+        font-family: 'Gotham';
+        font-weight: 300;
+        font-style: normal;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 25px;
+        line-height: 45px;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .faixaHome {
+        padding: 18px 0 15px 0;
+
+        p {
+            font-size: 14px;
+            line-height: 14px;
+            letter-spacing: 1px;
+        }
+
+    }
+
+    .boxLogo {
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        img {
+            max-width: 50%;
+        }
+    }
+
+    .info-home {
+        padding-top: 20px;
+        padding-bottom: 0px;
+
+        p {
+            font-size: 10px;
+            line-height: 15px;
+            text-align: center;
+        }
+
+        .box-info-home {
+            margin-top: 20px;
+
+            .col-xs-4 {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .fundoFolha {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        p {
+            letter-spacing: 1px;
+            font-size: 13px;
+            line-height: 23px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {
+    .info-home {
+        padding-top: 20px;
+        padding-bottom: 0px;
+
+        .box-info-home {
+            margin-top: 20px;
+
+            .col-xs-4 {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .fundoFolha {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {
+    .info-home {
+        p {
+            font-size: 10.5px;
+            line-height: 30px;
+        }
+    }
+}
+
+/* Large */
+@media(min-width:1200px) {}

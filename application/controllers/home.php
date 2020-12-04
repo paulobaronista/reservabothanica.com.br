@@ -7,9 +7,9 @@ class Home extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'LANDINGPAGEMODELO';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Reserva Bothanica';
+        $data['description'] = '';
+        $data['keywords'] = '';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'home_view';
         $this->load->view('html_header', $data);

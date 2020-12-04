@@ -5,8 +5,8 @@
         <title><?php echo $title; ?></title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="title" content="NOME DO SITE" />
-        <meta name="og:title" content="NOME DO SITE" />
+        <meta name="title" content="Reserva Bothanica" />
+        <meta name="og:title" content="Reserva Bothanica" />
         <meta name="og:description" content="DESCRIÇÃO" />
         <meta name="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
         <link rel="icon" href="<?= base_url(); ?>assets/images/favicon.png">
@@ -15,12 +15,12 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?= base_url(); ?>assets/images/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="<?= base_url(); ?>assets/images/apple-touch-icon-57-precomposed.png">
         <link rel="image_src" href="<?= base_url(); ?>assets/images/compartilhamento.png" />
-        <meta name="theme-color" content="#5d1580"/>
+        <meta name="theme-color" content="#9e8e52"/>
         <!-- property (faz funcionar no linkedin) -->
-        <meta property="og:title" content="NOME DO SITE" />
+        <meta property="og:title" content="Reserva Bothanica" />
         <meta property="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
-        <meta property="NOME DO SITE" />
-        <meta property="og:url" content="https://www.landingpagemodelo.com.br" />
+        <meta property="DESCRIÇÃO" />
+        <meta property="og:url" content="https://www.reservabothanica.com.br" />
         <!-- property (faz funcionar no linkedin) -->
         <?php
         $meta = array(
@@ -32,7 +32,9 @@
         );
         echo meta($meta);
         echo link_tag('assets/css/bootstrap.min.css');
-        echo link_tag('assets/css/style.css?v=3');
+        echo link_tag('assets/css/style.css');
+        echo link_tag('assets/css/slick.css');
+        echo link_tag('assets/css/slick-theme.css');
         ?>
     </head>
     <body>
