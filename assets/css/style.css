@@ -25,6 +25,33 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url("../fonts/AvenirNextLTPro-It.eot");
+  src: url("../fonts/AvenirNextLTPro-It.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextLTPro-It.woff2") format("woff2"), url("../fonts/AvenirNextLTPro-It.woff") format("woff"), url("../fonts/AvenirNextLTPro-It.ttf") format("truetype"), url("../fonts/AvenirNextLTPro-It.svg#AvenirNextLTPro-It") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url("../fonts/AvenirNextLTPro-Bold.eot");
+  src: url("../fonts/AvenirNextLTPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextLTPro-Bold.woff2") format("woff2"), url("../fonts/AvenirNextLTPro-Bold.woff") format("woff"), url("../fonts/AvenirNextLTPro-Bold.ttf") format("truetype"), url("../fonts/AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url("../fonts/AvenirNextLTPro-Regular.eot");
+  src: url("../fonts/AvenirNextLTPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextLTPro-Regular.woff2") format("woff2"), url("../fonts/AvenirNextLTPro-Regular.woff") format("woff"), url("../fonts/AvenirNextLTPro-Regular.ttf") format("truetype"), url("../fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 .margin-top {
   margin-top: 10px;
 }
@@ -428,6 +455,39 @@ p {
   line-height: 45px;
 }
 
+.projeto {
+  background-color: #9e8e52;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.projeto .media-object {
+  width: 200px;
+}
+
+.projeto p {
+  font-family: 'Gotham';
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.projeto a {
+  font-family: 'Gotham';
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 11px;
+  margin-top: 15px;
+  display: block;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .lazer {
@@ -464,6 +524,131 @@ p {
     letter-spacing: 0px;
     font-size: 12px;
     line-height: 22px;
+  }
+  .projeto {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .projeto .media-object {
+    width: 150px;
+  }
+  .projeto p {
+    letter-spacing: 1px;
+    font-size: 8px;
+    line-height: 15px;
+  }
+  .projeto a {
+    font-size: 9px;
+    line-height: 9px;
+    margin-top: 15px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.contato {
+  background-color: #edeae1;
+  padding-top: 40px;
+}
+
+.contato .tt,
+.contato .txt {
+  font-family: 'GeosansLight';
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #000000;
+  letter-spacing: 2px;
+}
+
+.contato .tt {
+  font-size: 25px;
+  line-height: 25px;
+  margin-top: 30px;
+}
+
+.contato .txt {
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.contato .form-control {
+  height: 60px;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #9c8d53;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-family: 'Avenir Next LT Pro';
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #9e8e52;
+}
+
+.contato .form-group {
+  margin-bottom: 30px;
+}
+
+.contato textarea {
+  height: 290px !important;
+}
+
+.contato label {
+  font-family: 'Avenir Next LT Pro';
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #9e8e52;
+}
+
+.contato .btn_enviar {
+  width: 100%;
+  background-color: #8d745e;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Avenir Next LT Pro';
+  font-weight: normal;
+  font-style: normal;
+  padding: 12px;
+  border: 0px solid transparent;
+  border-radius: 0px;
+}
+
+.contato .dt {
+  height: 44px;
+  background-color: #3d352b;
+}
+
+footer {
+  background-color: #edeae1;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+footer figcaption {
+  font-family: 'GeosansLight';
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #000000;
+  letter-spacing: 2px;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 10px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .contato textarea {
+    height: 150px !important;
   }
 }
 
