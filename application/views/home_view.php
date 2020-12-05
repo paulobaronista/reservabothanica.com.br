@@ -130,6 +130,10 @@
 <div class="container-fluid padding-off galeria-fotos">
     <div class="container">
         <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off text-center tt">
+                <p>INÚMERAS OPÇÕES DE LAZER<br>
+                    PARA TODAS AS IDADES:</p>
+            </div>
             <div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0 col-lg-8 col-lg-offset-2">
                 <section class="galeria-fotos-slider slider">
                     <div>
@@ -207,11 +211,11 @@
                         </div>
                         <div class="media-body">
                             <p>Projeto Urbanístico<br>
-                                e Paisagista<br>
+                                e PAISAGÍSTICO<br>
                                 criado pelo maior a<br>
                                 rquiteto do país,<br>
                                 o premiado Benedito Abbud.</p>
-                            <a href=""><strong>Clique e saiba mais</strong>.</a>
+                            <a href="http://www.beneditoabbud.com.br/index2.asp" target="_blank"><strong>Clique e saiba mais</strong>.</a>
                         </div>
                     </div>
                 </div>
@@ -242,7 +246,7 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                 <p>
-                    área com mais de 260.000 m2 de muito verde,<br>
+                    área com mais de 260.000 M² de muito verde,<br>
                     LAZER, SOFISTAÇÃO E SEGURANÇA 24 HORAS.
                 </p>
             </div>
@@ -253,7 +257,9 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lotes.png" alt="Lotes">
+                <a href="<?= base_url(); ?>assets/images/galeria/lote-full.jpg" target="_blank">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lotes.png" alt="Lotes">
+                </a>
             </div>
         </div>
     </div>
@@ -333,6 +339,34 @@
         </div>
     </div>
 </footer>
+
+<div id="home-form" class="home-form hidden-xs">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tt">
+                <p>RECEBA MAIS DETALHES</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
+                <form method="post" role="form" action="<?php echo base_url("homeContato") ?>">
+                    <div class="group-form">
+                        <div class="col-xs-12 col-sm-3 col-md-3">
+                            <input id="nome" type="text" class="homeNome form-control" name="nome" required="required" placeholder="Nome*" />
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-md-3">
+                            <input id="email" type="email" class="homeEmail form-control" name="email" required="required" placeholder="E-mail*" />
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-md-3">
+                            <input id="telefone" class="homePhone form-control" type="tel" name="phone" required="required" placeholder="Telefone*" />
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-md-3">
+                            <button type="submit" class="btn_home_enviar btn" title="enviar" name="enviar_email" value="enviar">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php
 if (isset($email_enviado))

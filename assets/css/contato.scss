@@ -30,7 +30,6 @@
         padding: 6px 12px;
         font-size: 16px;
         line-height: 1.42857143;
-        color: #555;
         background-color: #fff;
         border: 1px solid #9c8d53;
         border-radius: 0px;
@@ -81,6 +80,7 @@ footer {
     background-color: #edeae1;
     padding-top: 60px;
     padding-bottom: 30px;
+
     figcaption {
         font-family: 'GeosansLight';
         font-weight: 300;
@@ -94,6 +94,71 @@ footer {
     }
 }
 
+.home-form {
+    width: 100%;
+    background-color: #9e8e52;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    transition: 0.3s;
+
+    .form-control {
+        height: 40px;
+        padding: 6px 12px;
+        font-size: 16px;
+        line-height: 1.42857143;
+        background-color: #fff;
+        border: 1px solid #fff;
+        border-radius: 0px;
+        box-shadow: none;
+        font-family: 'Avenir Next LT Pro';
+        font-weight: normal;
+        font-style: normal;
+        text-transform: uppercase;
+        color: #9e8e52;
+
+        &::-webkit-input-placeholder {
+            color: #9e8e52;
+        }
+
+        &:-ms-input-placeholder {
+            color: #9e8e52;
+        }
+
+        &::placeholder {
+            color: #9e8e52;
+        }
+    }
+
+    .tt {
+        p {
+            font-family: 'Avenir Next LT Pro';
+            font-weight: normal;
+            font-style: normal;
+            text-transform: uppercase;
+            color: #fff;
+            letter-spacing: 2px;
+            font-size: 15px;
+            line-height: 15px;
+            margin-bottom: 5px;
+        }
+    }
+
+    .btn_home_enviar {
+        width: 100%;
+        background-color: #9b3556;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Avenir Next LT Pro';
+        font-weight: bold;
+        font-style: normal;
+        padding: 10px;
+        border: 0px solid transparent;
+        border-radius: 2px;
+    }
+}
 
 
 /* Extra Small */

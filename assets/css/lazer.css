@@ -45,6 +45,21 @@
   background-color: #91834a;
 }
 
+.galeria-fotos .tt {
+  padding-bottom: 30px;
+}
+
+.galeria-fotos .tt p {
+  font-family: 'Gotham';
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 25px;
+  line-height: 35px;
+}
+
 .fundoFolha-2 {
   background: url(../images/bg-folha.jpg) no-repeat;
   background-position: center center;
@@ -124,6 +139,14 @@
   .galeria-fotos {
     padding-top: 30px;
     padding-bottom: 25px;
+  }
+  .galeria-fotos .tt {
+    padding-bottom: 20px;
+  }
+  .galeria-fotos .tt p {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
   }
   .fundoFolha-2 {
     padding-top: 20px;

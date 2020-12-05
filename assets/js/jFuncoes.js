@@ -21,11 +21,15 @@ $(document).on('ready', function () {
 	});
 });
 
-
-
-
-
-
+$(document).on('ready', function () {
+	$(window).scroll(function(){
+		if( $(document).scrollTop() > 0 ) {
+			$('#home-form').css("bottom", "-85px");
+		} else {
+		   $('#home-form').css("bottom", "0px");
+		}
+	 });
+});
 
 $(function () {
 	$('.nome').clear();
@@ -41,5 +45,17 @@ $(function () {
 		t = $('.phone').val();
 		m = $('.msg').val();
 	});
+});
 
+$(function () {
+	$('.homeNome').clear();
+	$('.homeEmail').clear();
+	$('.homePhone').clear();
+
+	$('.btn_home_enviar').on('click', function () {
+		var n, e, t;
+		n = $('.nome').val();
+		e = $('.email').val();
+		t = $('.phone').val();
+	});
 });
