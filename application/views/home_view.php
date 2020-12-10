@@ -22,19 +22,13 @@
             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria-01.jpg" alt="Reserva Bothanica">
         </div>
         <div>
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria-01.jpg" alt="Reserva Bothanica">
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria-02.jpg" alt="Reserva Bothanica">
         </div>
         <div>
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria-01.jpg" alt="Reserva Bothanica">
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria-03.jpg" alt="Reserva Bothanica">
         </div>
         <div>
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria-01.jpg" alt="Reserva Bothanica">
-        </div>
-        <div>
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria-01.jpg" alt="Reserva Bothanica">
-        </div>
-        <div>
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria-01.jpg" alt="Reserva Bothanica">
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria-04.jpg" alt="Reserva Bothanica">
         </div>
     </section>
 </div>
