@@ -44,24 +44,27 @@
 }
 
 .contato .form-group {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .contato textarea {
-  height: 290px !important;
+  height: 329px !important;
 }
 
 .contato label {
+  font-size: 13px;
+  line-height: 13px;
   font-family: 'Avenir Next LT Pro';
   font-weight: bold;
   font-style: normal;
   text-transform: uppercase;
   color: #9e8e52;
+  margin-bottom: 0;
 }
 
 .contato .btn_enviar {
   width: 100%;
-  background-color: #8d745e;
+  background-color: #36463e;
   color: #fff;
   text-transform: uppercase;
   font-family: 'Avenir Next LT Pro';
@@ -74,7 +77,7 @@
 
 .contato .dt {
   height: 44px;
-  background-color: #3d352b;
+  background-color: #9e8e52;
 }
 
 footer {

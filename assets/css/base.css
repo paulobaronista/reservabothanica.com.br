@@ -161,7 +161,7 @@ p {
   display: table;
   margin: 10% auto 0;
   width: 40%;
-  background-color: #493d85;
+  background-color: #9b3556;
   padding: 20px 10px;
   position: relative;
 }
@@ -179,7 +179,7 @@ p {
 }
 
 .aviso div p {
-  font-family: 'Myriad Pro';
+  font-family: 'Avenir Next LT Pro';
   font-weight: bold;
   font-style: normal;
   font-size: 18px;

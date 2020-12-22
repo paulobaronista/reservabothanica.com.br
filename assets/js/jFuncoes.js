@@ -1,3 +1,10 @@
+$(document).ready(function () {
+	$("#close").click(function () {
+		$("#aviso").hide();
+		window.location.href = "https://www.reservabothanica.com.br"
+	});
+});
+
 $(document).on('ready', function () {
 	$(".galeria-reserva").slick({
 		draggable: false,
@@ -35,14 +42,16 @@ $(function () {
 	$('.nome').clear();
 	$('.email').clear();
 	$('.phone').clear();
+	$('.cidade').clear();
 	$('.msg').clear();
 
 	$('.btn_enviar').on('click', function () {
-		var n, e, t, m, s;
+		var n, e, t, c, m;
 		var msg = "";
 		n = $('.nome').val();
 		e = $('.email').val();
 		t = $('.phone').val();
+		c = $('.cidade').val();
 		m = $('.msg').val();
 	});
 });

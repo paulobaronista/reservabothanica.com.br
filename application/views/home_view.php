@@ -37,11 +37,8 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <p>
-                    UM VERDADEIRO PRIVILÉGIO SE DEFINE POR SUA EXCLUSIVIDADE. PARA QUEM DESEJA O MELHOR, VIVER BEM É UMA CONDIÇÃO NATURAL. FAZ PARTE DO SEU DIA, DE<br>
-                    SUA ROTINA,DE SEU ESTILO. RESERVA BOTHANICA NASCE PARA VALORIZAR AINDA MAIS SEU JEITO DE VIVER. UM RESIDENCIAL FECHADO DE ALTO PADRÃO QUE IRÁ<br>
-                    RECEBER SUA CASA E ENRIQUECER OS SEUS DIAS. MUITO ALÉM DE SEGURANÇA E TRANQUILIDADE, VOCÊ E SUA FAMÍLIA TERÃO UM CLUBE COM LAZER COMPLETO,<br>
-                    ENVOLVIDO POR UM BOSQUE NATIVO PRESERVADO E PRIVATIVO PARA OS MORADORES. RESERVA BOTHANICA É UM ENDEREÇO ENCANTADOR, COM UMA ATMOSFERA<br>
-                    ACONCHEGANTE E UM PAISAGISMO INSPIRADOR E HARMONIOSO. TUDO NATURALMENTE DE ACORDO COM VOCÊ E SEU NOVO ESTILO EXCLUSIVO DE VIVER.
+                    UM VERDADEIRO PRIVILÉGIO SE DEFINE POR SUA EXCLUSIVIDADE. PARA QUEM DESEJA O MELHOR, VIVER BEM É UMA CONDIÇÃO NATURAL . FAZ PARTE DO SEU DIA, DE SUA ROTINA,DE SEU ESTILO. RESERVA BOTHANICA NASCE PARA VALORIZAR AINDA MAIS SEU JEITO DE VIVER. UM RESIDENCIAL FECHADO DE ALTO PADRÃO QUE IRÁ RECEBER SUA CASA E ENRIQUECER OS SEUS DIAS. MUITO ALÉM DE SEGURANÇA E TRANQUILIDADE, VOCÊ E SUA FAMÍLIA TERÃO UM CLUBE COM LAZER COMPLETO, ENVOLVIDO POR UM BOSQUE NATIVO PRESERVADO E PRIVATIVO PARA OS MORADORES. RESERVA BOTHANICA É UM ENDEREÇO ENCANTADOR, COM UMA ATMOSFERA ACONCHEGANTE E UM
+                    PAISAGISMO INSPIRADOR E HARMONIOSO. TUDO NATURALMENTE DE ACORDO COM VOCÊ E SEU NOVO ESTILO EXCLUSIVO DE VIVER .
                 </p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off box-info-home">
@@ -124,10 +121,10 @@
 <div class="container-fluid padding-off galeria-fotos">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off text-center tt">
+            <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off text-center tt">
                 <p>INÚMERAS OPÇÕES DE LAZER<br>
                     PARA TODAS AS IDADES:</p>
-            </div>
+            </div> -->
             <div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0 col-lg-8 col-lg-offset-2">
                 <section class="galeria-fotos-slider slider">
                     <div>
@@ -240,14 +237,14 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                 <p>
-                    área com mais de 260.000 M² de muito verde,<br>
+                    área com 260.000 M² de muito verde,<br>
                     LAZER, SOFISTAÇÃO E SEGURANÇA 24 HORAS.
                 </p>
             </div>
         </div>
     </div>
 </div>
-<div class="container-fluid padding-off" style="background-color: #edeae1;">
+<div class="container-fluid padding-off">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -300,6 +297,10 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 form-group">
                                 <label for="telefone">Telefone</label>
                                 <input id="telefone" class="phone form-control" type="tel" name="phone" />
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                                <label for="cidade">Cidade</label>
+                                <input id="cidade" class="cidade form-control" type="text" name="cidade" />
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-5 col-md-5 padding-off">
