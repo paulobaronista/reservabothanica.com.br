@@ -98,22 +98,65 @@ footer figcaption {
   margin-bottom: 10px;
 }
 
+footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+footer .navbar-nav {
+  margin-top: 20px;
+}
+
+footer .navbar-nav li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+footer .navbar-nav li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 13px;
+  border-right: 1px solid #000;
+}
+
+footer .navbar-nav li > a:focus,
+footer .navbar-nav li > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+footer .navbar-nav li:last-child a {
+  border-right: 0px solid transparent;
+}
+
 .home-form {
   width: 100%;
-  background-color: #9e8e52;
+  background-color: rgba(158, 142, 82, 0.6);
   position: fixed;
   left: 0;
   bottom: 0;
   padding-top: 10px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .home-form .form-control {
-  height: 40px;
+  height: 35px;
   padding: 6px 12px;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.42857143;
   background-color: #fff;
   border: 1px solid #fff;
@@ -150,8 +193,8 @@ footer figcaption {
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 2px;
-  font-size: 15px;
-  line-height: 15px;
+  font-size: 12px;
+  line-height: 12px;
   margin-bottom: 5px;
 }
 
@@ -163,7 +206,8 @@ footer figcaption {
   font-family: 'Avenir Next LT Pro';
   font-weight: bold;
   font-style: normal;
-  padding: 10px;
+  font-size: 12px;
+  padding: 9px 10px;
   border: 0px solid transparent;
   border-radius: 2px;
 }
@@ -172,6 +216,10 @@ footer figcaption {
 @media (max-width: 767px) {
   .contato textarea {
     height: 150px !important;
+  }
+  footer p {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 

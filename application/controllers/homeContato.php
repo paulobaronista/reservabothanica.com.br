@@ -8,8 +8,8 @@ class homeContato extends CI_Controller{
     }
     public function index(){
         $data['title'] = 'Reserva Bothanica';
-        $data['description'] = '';
-        $data['keywords'] = '';
+        $data['description'] = 'Residencial fechado de alto padrão Terrenos a partir de 300 m²';
+        $data['keywords'] = 'residencial, fechado, alto padrão, terrenos, 300m²';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -23,8 +23,8 @@ class homeContato extends CI_Controller{
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@reservabothanica.com.br","Reserva Bothanica");
-            $this->email->to('contato@reservabothanica.com.br');
+            $this->email->from("contato@terradouradainc.com.br", "Reserva Bothanica");
+            $this->email->to('contato@terradouradainc.com.br');
             $this->email->cc('paulobaronista@gmail.com');
 
             $this->email->subject($assunto);
@@ -52,8 +52,8 @@ class homeContato extends CI_Controller{
 
     public function obrigado(){
         $data['title'] = 'Reserva Bothanica';
-        $data['description'] = '';
-        $data['keywords'] = '';
+        $data['description'] = 'Residencial fechado de alto padrão Terrenos a partir de 300 m²';
+        $data['keywords'] = 'residencial, fechado, alto padrão, terrenos, 300m²';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -66,8 +66,8 @@ class homeContato extends CI_Controller{
 
     public function fail(){
         $data['title'] = 'Reserva Bothanica';
-        $data['description'] = '';
-        $data['keywords'] = '';
+        $data['description'] = 'Residencial fechado de alto padrão Terrenos a partir de 300 m²';
+        $data['keywords'] = 'residencial, fechado, alto padrão, terrenos, 300m²';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);

@@ -1,7 +1,7 @@
 $(document).ready(function () {
 	$("#close").click(function () {
 		$("#aviso").hide();
-		window.location.href = "https://www.reservabothanica.com.br"
+		window.location.href = "http://terradouradainc.com.br/reservabothanica"
 	});
 });
 
@@ -38,6 +38,19 @@ $(document).on('ready', function () {
 	 });
 });
 
+$(document).ready(function () {
+	$('#cookies').show();
+	if (window.localStorage.getItem('accept_cookies')) {
+		$('#cookies').hide();
+		return false;
+	}
+	$(".btn_cookie").click(function () {
+		window.localStorage.setItem('accept_cookies', true);
+		$('#cookies').hide();
+		return false;
+	});
+});
+
 $(function () {
 	$('.nome').clear();
 	$('.email').clear();
@@ -63,8 +76,8 @@ $(function () {
 
 	$('.btn_home_enviar').on('click', function () {
 		var n, e, t;
-		n = $('.nome').val();
-		e = $('.email').val();
-		t = $('.phone').val();
+		n = $('.homeNome').val();
+		e = $('.homeEmail').val();
+		t = $('.homePhone').val();
 	});
 });

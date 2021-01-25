@@ -95,22 +95,65 @@ footer {
         line-height: 14px;
         margin-bottom: 10px;
     }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #000;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .navbar-nav {
+        margin-top: 20px;
+
+        li {
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+
+        li>a {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            color: #000;
+            text-transform: uppercase;
+            font-size: 13px;
+            line-height: 13px;
+            border-right: 1px solid #000;
+        }
+
+        li>a:focus,
+        li>a:hover {
+            text-decoration: underline;
+            background-color: transparent;
+        }
+
+        li:last-child a {
+            border-right: 0px solid transparent;
+        }
+    }
 }
 
 .home-form {
     width: 100%;
-    background-color: #9e8e52;
+    background-color: rgba(158,142,82,0.6);
     position: fixed;
     left: 0;
     bottom: 0;
     padding-top: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 10px; 
     transition: 0.3s;
 
     .form-control {
-        height: 40px;
+        height: 35px;
         padding: 6px 12px;
-        font-size: 16px;
+        font-size: 12px;
         line-height: 1.42857143;
         background-color: #fff;
         border: 1px solid #fff;
@@ -143,8 +186,8 @@ footer {
             text-transform: uppercase;
             color: #fff;
             letter-spacing: 2px;
-            font-size: 15px;
-            line-height: 15px;
+            font-size: 12px;
+            line-height: 12px;
             margin-bottom: 5px;
         }
     }
@@ -157,7 +200,8 @@ footer {
         font-family: 'Avenir Next LT Pro';
         font-weight: bold;
         font-style: normal;
-        padding: 10px;
+        font-size: 12px;
+        padding: 9px 10px;
         border: 0px solid transparent;
         border-radius: 2px;
     }
@@ -170,6 +214,13 @@ footer {
 
         textarea {
             height: 150px !important;
+        }
+    }
+
+    footer {
+        p {
+            padding-left: 0px;
+            padding-right: 0px;
         }
     }
 }

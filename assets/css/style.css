@@ -180,6 +180,10 @@
   margin-top: 400px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .padding-off {
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -242,6 +246,54 @@ p {
   text-transform: uppercase;
 }
 
+.cookies {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  height: 100%;
+  top: 0;
+  display: none;
+}
+
+.cookies .box {
+  background-color: #9e8e52;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.cookies .box p {
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 7px;
+}
+
+.cookies .box p a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.cookies .box .btn_cookie {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+  border: 0px solid transparent;
+  border-radius: 50px;
+  padding: 12px 30px;
+  width: 160px;
+  margin-top: 7px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: #9b3556;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .aviso div {
@@ -252,30 +304,36 @@ p {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
+  .cookies .box {
+    padding-top: 10px;
+  }
+  .cookies .box .btn_cookie {
+    margin-top: 20px;
+  }
 }
 
 .faixaHome {
   background-color: #9e8e52;
-  padding: 18px 0 20px 0;
+  padding: 12px 0 12px 0;
 }
 
 .faixaHome p {
-  font-family: 'Gotham';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 .boxLogo {
   background: url(../images/bg-logo.jpg) no-repeat;
   background-position: center center;
   background-size: cover;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .info-home {
@@ -286,7 +344,7 @@ p {
 }
 
 .info-home p {
-  font-family: 'Gotham';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #000;
@@ -309,7 +367,7 @@ p {
 }
 
 .fundoFolha p {
-  font-family: 'Gotham';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #fff;
@@ -321,20 +379,17 @@ p {
 
 /* Extra Small */
 @media (max-width: 767px) {
-  .faixaHome {
-    padding: 18px 0 15px 0;
-  }
   .faixaHome p {
     font-size: 14px;
     line-height: 14px;
     letter-spacing: 1px;
   }
   .boxLogo {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .boxLogo img {
-    max-width: 50%;
+    max-width: 40%;
   }
   .info-home {
     padding-top: 20px;
@@ -342,8 +397,8 @@ p {
   }
   .info-home p {
     font-size: 10px;
-    line-height: 15px;
-    text-align: center;
+    line-height: 20px;
+    text-align: justify;
   }
   .info-home .box-info-home {
     margin-top: 20px;
@@ -396,7 +451,7 @@ p {
 }
 
 .lazer .tt {
-  font-family: 'Gotham';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #fff;
@@ -420,7 +475,7 @@ p {
 }
 
 .boxTexto p {
-  font-family: 'Gotham';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #fff;
@@ -441,7 +496,7 @@ p {
 }
 
 .galeria-fotos .tt p {
-  font-family: 'Gotham';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #fff;
@@ -460,7 +515,7 @@ p {
 }
 
 .fundoFolha-2 p {
-  font-family: 'Gotham';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #fff;
@@ -481,7 +536,7 @@ p {
 }
 
 .projeto p {
-  font-family: 'Gotham';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #fff;
@@ -491,16 +546,22 @@ p {
   line-height: 26px;
 }
 
-.projeto a {
-  font-family: 'Gotham';
+.projeto .video {
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: normal;
-  color: #fff;
+  color: #ccc877;
+  padding: 5px 10px;
   text-transform: uppercase;
   font-size: 11px;
   line-height: 11px;
   margin-top: 15px;
-  display: block;
+  display: table;
+  background-color: #0e201f;
+}
+
+.projeto a:hover {
+  text-decoration: none;
 }
 
 /* Extra Small */
@@ -670,22 +731,65 @@ footer figcaption {
   margin-bottom: 10px;
 }
 
+footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+footer .navbar-nav {
+  margin-top: 20px;
+}
+
+footer .navbar-nav li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+footer .navbar-nav li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 13px;
+  border-right: 1px solid #000;
+}
+
+footer .navbar-nav li > a:focus,
+footer .navbar-nav li > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+footer .navbar-nav li:last-child a {
+  border-right: 0px solid transparent;
+}
+
 .home-form {
   width: 100%;
-  background-color: #9e8e52;
+  background-color: rgba(158, 142, 82, 0.6);
   position: fixed;
   left: 0;
   bottom: 0;
   padding-top: 10px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .home-form .form-control {
-  height: 40px;
+  height: 35px;
   padding: 6px 12px;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.42857143;
   background-color: #fff;
   border: 1px solid #fff;
@@ -722,8 +826,8 @@ footer figcaption {
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 2px;
-  font-size: 15px;
-  line-height: 15px;
+  font-size: 12px;
+  line-height: 12px;
   margin-bottom: 5px;
 }
 
@@ -735,7 +839,8 @@ footer figcaption {
   font-family: 'Avenir Next LT Pro';
   font-weight: bold;
   font-style: normal;
-  padding: 10px;
+  font-size: 12px;
+  padding: 9px 10px;
   border: 0px solid transparent;
   border-radius: 2px;
 }
@@ -744,6 +849,62 @@ footer figcaption {
 @media (max-width: 767px) {
   .contato textarea {
     height: 150px !important;
+  }
+  footer p {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.politica {
+  background-color: #edeae1;
+}
+
+.politica .politica-tt {
+  background-color: #9e8e52;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.politica .politica-tt h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.politica .politica-info {
+  margin-top: 30px;
+}
+
+.politica .politica-info p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.politica .politica-info p a {
+  color: #EC2c27;
+  text-decoration: underline;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .politica .politica-tt h3 {
+    font-size: 25px;
+    line-height: 25px;
   }
 }
 

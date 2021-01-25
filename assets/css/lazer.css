@@ -5,7 +5,7 @@
 }
 
 .lazer .tt {
-  font-family: 'Gotham';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #fff;
@@ -29,7 +29,7 @@
 }
 
 .boxTexto p {
-  font-family: 'Gotham';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #fff;
@@ -50,7 +50,7 @@
 }
 
 .galeria-fotos .tt p {
-  font-family: 'Gotham';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #fff;
@@ -69,7 +69,7 @@
 }
 
 .fundoFolha-2 p {
-  font-family: 'Gotham';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #fff;
@@ -90,7 +90,7 @@
 }
 
 .projeto p {
-  font-family: 'Gotham';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #fff;
@@ -100,16 +100,22 @@
   line-height: 26px;
 }
 
-.projeto a {
-  font-family: 'Gotham';
+.projeto .video {
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: normal;
-  color: #fff;
+  color: #ccc877;
+  padding: 5px 10px;
   text-transform: uppercase;
   font-size: 11px;
   line-height: 11px;
   margin-top: 15px;
-  display: block;
+  display: table;
+  background-color: #0e201f;
+}
+
+.projeto a:hover {
+  text-decoration: none;
 }
 
 /* Extra Small */

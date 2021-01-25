@@ -1,25 +1,25 @@
 .faixaHome {
   background-color: #9e8e52;
-  padding: 18px 0 20px 0;
+  padding: 12px 0 12px 0;
 }
 
 .faixaHome p {
-  font-family: 'Gotham';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 .boxLogo {
   background: url(../images/bg-logo.jpg) no-repeat;
   background-position: center center;
   background-size: cover;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .info-home {
@@ -30,7 +30,7 @@
 }
 
 .info-home p {
-  font-family: 'Gotham';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #000;
@@ -53,7 +53,7 @@
 }
 
 .fundoFolha p {
-  font-family: 'Gotham';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #fff;
@@ -65,20 +65,17 @@
 
 /* Extra Small */
 @media (max-width: 767px) {
-  .faixaHome {
-    padding: 18px 0 15px 0;
-  }
   .faixaHome p {
     font-size: 14px;
     line-height: 14px;
     letter-spacing: 1px;
   }
   .boxLogo {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .boxLogo img {
-    max-width: 50%;
+    max-width: 40%;
   }
   .info-home {
     padding-top: 20px;
@@ -86,8 +83,8 @@
   }
   .info-home p {
     font-size: 10px;
-    line-height: 15px;
-    text-align: center;
+    line-height: 20px;
+    text-align: justify;
   }
   .info-home .box-info-home {
     margin-top: 20px;
