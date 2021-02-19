@@ -20,5 +20,25 @@ echo script_tag('assets/js/jFuncoes.js');
 echo script_tag('assets/js/bootstrap.min.js');
 ?>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LT9Y4Z437E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LT9Y4Z437E');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Ads: 434500605 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-434500605"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-434500605');
+</script>
+
 </body>
 </html>

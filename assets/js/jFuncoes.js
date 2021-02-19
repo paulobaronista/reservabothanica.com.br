@@ -1,7 +1,13 @@
 $(document).ready(function () {
+	$('#myVideo').on('hidden.bs.modal', function () {
+		$('video').trigger('pause');
+	});
+});
+
+$(document).ready(function () {
 	$("#close").click(function () {
 		$("#aviso").hide();
-		window.location.href = "http://terradouradainc.com.br/reservabothanica"
+		window.location.href = "http://reservabothanica.com.br"
 	});
 });
 

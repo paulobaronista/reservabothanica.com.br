@@ -8,8 +8,8 @@ class Home extends CI_Controller{
     }
     public function index(){
         $data['title'] = 'Reserva Bothanica';
-        $data['description'] = 'Residencial fechado de alto padrão Terrenos a partir de 300 m²';
-        $data['keywords'] = 'residencial, fechado, alto padrão, terrenos, 300m²';
+        $data['description'] = 'Estilo naturalmente exclusivo de viver';
+        $data['keywords'] = 'Reserva Bothanica; loteamento Maracaju; loteamento dourados ;lotes ms; corpal; loteamento royale premium; royale premium Maracaju';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'home_view';
         $this->load->view('html_header', $data);
@@ -21,8 +21,8 @@ class Home extends CI_Controller{
     }
     public function politicadeprivacidade() {
         $data['title'] = 'Reserva Bothanica';
-        $data['description'] = 'Residencial fechado de alto padrão Terrenos a partir de 300 m²';
-        $data['keywords'] = 'residencial, fechado, alto padrão, terrenos, 300m²';
+        $data['description'] = 'Estilo naturalmente exclusivo de viver';
+        $data['keywords'] = 'Reserva Bothanica; loteamento Maracaju; loteamento dourados ;lotes ms; corpal; loteamento royale premium; royale premium Maracaju';
         $menu['politicadeprivacidade'] = 'active';
         $conteudo['pagina_view'] = 'politicadeprivacidade_view';
         $this->load->view('html_header', $data);
@@ -34,8 +34,8 @@ class Home extends CI_Controller{
     }
     public function politicadecookies() {
         $data['title'] = 'Reserva Bothanica';
-        $data['description'] = 'Residencial fechado de alto padrão Terrenos a partir de 300 m²';
-        $data['keywords'] = 'residencial, fechado, alto padrão, terrenos, 300m²';
+        $data['description'] = 'Estilo naturalmente exclusivo de viver';
+        $data['keywords'] = 'Reserva Bothanica; loteamento Maracaju; loteamento dourados ;lotes ms; corpal; loteamento royale premium; royale premium Maracaju';
         $menu['politicadecookies'] = 'active';
         $conteudo['pagina_view'] = 'politicadecookies_view';
         $this->load->view('html_header', $data);

@@ -1,23 +1,30 @@
-<div class="faixaHome">
+<div class="faixaHome wow fadeInUp">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <p>breve lançamento - maracaju - ms</p>
+                <p>EM BREVE O MELHOR RESIDENCIAL DE MARACAJU. COMPARE E SE SURPREENDA!*<br>
+                    *O EMPREENDIMENTO SOMENTE SERÁ COMERCIALIZADO APÓS O REGISTRO DE INCORPORAÇÃO.
+                </p>
             </div>
         </div>
     </div>
 </div>
-<div class="container-fluid padding-off boxLogo">
+<div class="container-fluid padding-off boxLogo wow fadeInUp" data-wow-delay="0.5s">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo-reserva-bothanica.png" alt="Reserva Bothanica">
+                <p>ESTILO NATURALMENTE EXCLUSIVO DE VIVER.</p>
             </div>
         </div>
     </div>
 </div>
-<div class="galeria">
+<div class="galeria wow fadeInUp" data-wow-delay="1s">
     <section class="galeria-reserva slider">
+        <div>
+            <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-08.jpg" alt="Reserva Bothanica">
+            <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-08-mobile.jpg" alt="Reserva Bothanica">
+        </div>
         <div>
             <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-01.jpg" alt="Reserva Bothanica">
             <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-01-mobile.jpg" alt="Reserva Bothanica">
@@ -27,43 +34,58 @@
             <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-02-mobile.jpg" alt="Reserva Bothanica">
         </div>
         <div>
+            <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-06.jpg" alt="Reserva Bothanica">
+            <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-06-mobile.jpg" alt="Reserva Bothanica">
+        </div>
+        <div>
             <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-03.jpg" alt="Reserva Bothanica">
             <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-03-mobile.jpg" alt="Reserva Bothanica">
         </div>
         <div>
+            <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-07.jpg" alt="Reserva Bothanica">
+            <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-07-mobile.jpg" alt="Reserva Bothanica">
+        </div>
+        <div>
             <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-04.jpg" alt="Reserva Bothanica">
             <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-04-mobile.jpg" alt="Reserva Bothanica">
+        </div>
+        <div>
+            <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-05.jpg" alt="Reserva Bothanica">
+            <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-05-mobile.jpg" alt="Reserva Bothanica">
         </div>
     </section>
 </div>
 <div class="info-home">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wow fadeInUp">
                 <p>
                     UM VERDADEIRO PRIVILÉGIO SE DEFINE POR SUA EXCLUSIVIDADE. PARA QUEM DESEJA O MELHOR, VIVER BEM É UMA CONDIÇÃO NATURAL . FAZ PARTE DO SEU DIA, DE SUA ROTINA,DE SEU ESTILO. RESERVA BOTHANICA NASCE PARA VALORIZAR AINDA MAIS SEU JEITO DE VIVER. UM RESIDENCIAL FECHADO DE ALTO PADRÃO QUE IRÁ RECEBER SUA CASA E ENRIQUECER OS SEUS DIAS. MUITO ALÉM DE SEGURANÇA E TRANQUILIDADE, VOCÊ E SUA FAMÍLIA TERÃO UM CLUBE COM LAZER COMPLETO, ENVOLVIDO POR UM BOSQUE NATIVO PRESERVADO E PRIVATIVO PARA OS MORADORES. RESERVA BOTHANICA É UM ENDEREÇO ENCANTADOR, COM UMA ATMOSFERA ACONCHEGANTE E UM
                     PAISAGISMO INSPIRADOR E HARMONIOSO. TUDO NATURALMENTE DE ACORDO COM VOCÊ E SEU NOVO ESTILO EXCLUSIVO DE VIVER .
                 </p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off box-info-home">
-                <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+                <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 wow fadeInUp" data-wow-delay="0.2s">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/info-home-01.jpg" alt="Reserva Bothanica">
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+                <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 wow fadeInUp" data-wow-delay="0.4s">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/info-home-03.jpg" alt="Reserva Bothanica">
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+                <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 wow fadeInUp" data-wow-delay="0.6s">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/info-home-02.jpg" alt="Reserva Bothanica">
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+                <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 wow fadeInUp" data-wow-delay="0.8s">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/info-home-06.jpg" alt="Reserva Bothanica">
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+                <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 wow fadeInUp" data-wow-delay="1s">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/info-home-04.jpg" alt="Reserva Bothanica">
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+                <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 wow fadeInUp" data-wow-delay="1.2s">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/info-home-05.jpg" alt="Reserva Bothanica">
                 </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <small style="color: #000; padding-top:5px">Imagens ilustrativas e do local</small>
             </div>
         </div>
     </div>
@@ -71,9 +93,8 @@
 <div class="container-fluid padding-off fundoFolha">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <p>residencial fechado de alto padrão<br>
-                    Terrenos a partir de 300 m²</p>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center wow fadeInUp">
+                <p>residencial fechado de alto padrão</p>
             </div>
         </div>
     </div>
@@ -81,41 +102,47 @@
 <div class="container-fluid padding-off lazer">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center tt">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center tt wow fadeInUp">
                 <p>
                     QUANDO QUISER RELAXAR OU SE DIVERTIR,<br>
                     UM RESORT COM LAZER COMPLETO ESTÁ A SUA DISPOSIÇÃO.
                 </p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer wow fadeInLeftBig">
                     <a href="<?= base_url(); ?>assets/images/galeria/portaria.jpg" data-lightbox="galeria">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/portaria.jpg" alt="Portaria">
+                        <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativa</small>
                     </a>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer wow fadeInRightBig">
                     <a href="<?= base_url(); ?>assets/images/galeria/piscina.jpg" data-lightbox="galeria">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/piscina.jpg" alt="Piscina">
+                        <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativa</small>
                     </a>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer wow fadeInLeftBig">
                     <a href="<?= base_url(); ?>assets/images/galeria/quadra-tenis.jpg" data-lightbox="galeria">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/quadra-tenis.jpg" alt="Quadra de Tênis">
+                        <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativa</small>
                     </a>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer wow fadeInRightBig">
                     <a href="<?= base_url(); ?>assets/images/galeria/fitness.jpg" data-lightbox="galeria">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/fitness.jpg" alt="Fitness">
+                        <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativa</small>
                     </a>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer wow fadeInLeftBig">
                     <a href="<?= base_url(); ?>assets/images/galeria/gourmet.jpg" data-lightbox="galeria">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/gourmet.jpg" alt="Espaço Gourmet">
+                        <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativa</small>
                     </a>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer wow fadeInRightBig">
                     <a href="<?= base_url(); ?>assets/images/galeria/brinquedoteca.jpg" data-lightbox="galeria">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/brinquedoteca.jpg" alt="Brinquedoteca">
+                        <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativa</small>
                     </a>
                 </div>
             </div>
@@ -125,7 +152,7 @@
 <div class="container-fluid padding-off galeria-fotos">
     <div class="container">
         <div class="row">
-            <div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0 col-lg-8 col-lg-offset-2 padding-off-mobile">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0 col-lg-8 col-lg-offset-2 padding-off-mobile wow fadeInUp">
                 <section class="galeria-fotos-slider slider">
                     <div>
                         <a href="<?= base_url(); ?>assets/images/galeria/PERSPECTIVAS-PADRAO-P-PAULO.jpg" data-lightbox="galeria">
@@ -162,11 +189,11 @@
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/playground.jpg" alt="Playground">
                         </a>
                     </div>
-                    <!-- <div>
+                    <div>
                         <a href="<?= base_url(); ?>assets/images/galeria/PERSPECTIVAS-PADRAO-P-PAULO8.jpg" data-lightbox="galeria">
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/mall.jpg" alt="Mall">
                         </a>
-                    </div> -->
+                    </div>
                     <div>
                         <a href="<?= base_url(); ?>assets/images/galeria/PERSPECTIVAS-PADRAO-P-PAULO9.jpg" data-lightbox="galeria">
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/praca.jpg" alt="Praça">
@@ -174,13 +201,16 @@
                     </div>
                 </section>
             </div>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0 col-lg-8 col-lg-offset-2 padding-off-mobile">
+                <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativas</small>
+            </div>
         </div>
     </div>
 </div>
 <div class="container-fluid padding-off boxTexto">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center wow fadeInUp">
                 <p>
                     RESERVA BOTHANICA É UM GRANDIOSO PROJETO<br>
                     ARQUITETÔNICO, URBANÍSTICO E PAISAGÍSTICO,<br>
@@ -194,7 +224,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 wow fadeInLeftBig">
                     <div class="media">
                         <div class="media-left media-middle">
                             <a href="http://www.beneditoabbud.com.br/index2.asp" target="_blank">
@@ -209,22 +239,22 @@
                                     criado pelo maior<br> arquiteto do país,<br>
                                     o premiado Benedito Abbud.</p>
                             </a>
-                            <a class="video" href="#">ASSISTA O VÍDEO</a>
+                            <a class="video" href="#" data-toggle="modal" data-target="#myVideo">ASSISTA O VÍDEO</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 visible-xs margin-top-20">
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 wow fadeInRightBig">
                     <div class="media">
                         <div class="media-left media-middle">
-                            <a href="">
+                            <a href="https://www.instagram.com/castro_arquitetura/" target="_blank">
                                 <img class="media-object" src="<?= base_url(); ?>assets/images/castro.jpg" alt="Studio Castro">
                                 <img class="img-responsive center-block margin-top-30" src="<?= base_url(); ?>assets/images/logo-studio-castro.png" alt="Studio Castro">
                             </a>
                         </div>
                         <div class="media-body">
-                            <a href="">
+                            <a href="https://www.instagram.com/castro_arquitetura/" target="_blank">
                                 <p>Projeto Arquitetônico<br>
                                     assinado por um<br>
                                     dos maiores escritórios<br>
@@ -241,9 +271,9 @@
 <div class="container-fluid padding-off fundoFolha-2">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center wow fadeInUp">
                 <p>
-                    área com 260.000 M² de muito verde,<br>
+                    área com 240.000 M² de muito verde,<br>
                     LAZER, SOFISTAÇÃO E SEGURANÇA 24 HORAS.
                 </p>
             </div>
@@ -253,10 +283,13 @@
 <div class="container-fluid padding-off">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wow fadeInUpBig">
                 <a href="<?= base_url(); ?>assets/images/galeria/lote-full.jpg" target="_blank">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lotes.png" alt="Lotes">
                 </a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" style="padding-top: 20px; padding-bottom: 20px;">
+                <h4 style="color: #000; padding-top:5px">Implantação meramente ilustrativa</h4>
             </div>
         </div>
     </div>
@@ -264,27 +297,35 @@
 <div class="container-fluid padding-off" style="background-color: #9e8e52; padding-top:30px; padding-bottom: 30px;">
     <div class="container">
         <div class="row">
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/tenis.jpg" alt="Tênis">
             </div>
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/piscina-3.jpg" alt="Piscina">
             </div>
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/brinde.jpg" alt="Brinde">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <small style="color: #fff; padding-top:5px">Imagens Ilustrativas</small>
             </div>
         </div>
     </div>
 </div>
 <div class="container-fluid padding-off contato">
-    <div class="container">
+    <div class="container wow fadeInUpBig">
         <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off text-center" style="margin-bottom: 20px;">
+                <p>
+                    *IMAGENS MERAMENTE ILUSTRATIVAS, SUJEITO À ALTERAÇÃO. O EMPREENDIMENTO SOMENTE SERÁ <br>
+                    COMERCIALIZADO APÓS O REGISTRO DO INCORPORAÇÃO.
+                </p>
+            </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off text-center">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/icone-contato.png" alt="Logo">
                 <p class="tt">contato</p>
                 <p class="txt">
-                    Saiba mais. Preencha abaixo e retornaremos em breve,<br>
-                    se preferir agende uma visita com consultor.
+                    Saiba mais. Preencha abaixo e retornaremos em breve.
                 </p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off">
@@ -327,7 +368,7 @@
     </div>
 </div>
 <footer>
-    <div class="container">
+    <div class="container wow fadeInUpBig">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center padding-off">
                 <figure>
@@ -338,12 +379,12 @@
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
                 <ul class="nav navbar-nav">
                     <li><a href="<?php echo base_url(); ?>politicadeprivacidade">Política de privacidade</a></li>
-                    <li><a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições</a></li>
+                    <!-- <li><a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições</a></li> -->
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 margin-top-15">
                 <p>
-                    IMAGENS MERAMENTE ILUSTRATIVAS, SUJEITO À ALTERAÇÃO. O EMPREENDIMENTO SOMENTE SERÁ COMERCIALIZADO APÓS O REGISTRO DO LOTEAMENTO.
+                    *IMAGENS MERAMENTE ILUSTRATIVAS, SUJEITO À ALTERAÇÃO. O EMPREENDIMENTO SOMENTE SERÁ COMERCIALIZADO APÓS O REGISTRO DO INCORPORAÇÃO.
                 </p>
             </div>
         </div>
@@ -377,11 +418,6 @@
     </div>
 </div>
 
-<?php
-if (isset($email_enviado))
-    echo $email_enviado;
-?>
-
 <div id="aviso" class="aviso text-center">
     <div>
         <button type="button" class="close" id="close"><span aria-hidden="true">&times;</span></button>
@@ -390,16 +426,7 @@ if (isset($email_enviado))
     </div>
 </div>
 
-<div id="cookies" class="cookies">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
-        <div class="col-xs-12 col-sm-9 col-md-9">
-            <p>
-                Este site utiliza cookies para melhorar sua experiência de navegação, permitir um início de sessão seguro, recolher estatísticas e oferecer conteúdo adequado aos seus interesses. Ao continuar sua navegação, considera-se aceito nossos 
-                <a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições</a> e a nossa <a href="<?php echo base_url(); ?>politicadeprivacidade">Política de Privacidade</a>.
-            </p>
-        </div>
-        <div class="col-xs-12 col-sm-3 col-md-3">
-            <a href="#" class="btn_cookie btn center-block">Aceito</a>
-        </div>
-    </div>
-</div>
+<!-- Event snippet for Lead - Pagina de obrigado conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-434500605/dXWaCJWlm_YBEP3nl88B'});
+</script>

@@ -30,7 +30,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="<?php echo base_url(); ?>home">Home</a></li>
                     <li><a href="<?php echo base_url(); ?>politicadeprivacidade">Política de privacidade</a></li>
-                    <li><a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições</a></li>
+                    <!-- <li><a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições</a></li> -->
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 margin-top-15">

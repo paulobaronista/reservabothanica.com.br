@@ -240,6 +240,42 @@ p {
   background: #9b3556;
 }
 
+.modalVideo {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalVideo .modal-dialog {
+  margin: 6% auto;
+}
+
+.modalVideo .modal-content {
+  background-color: transparent;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 0px;
+}
+
+.modalVideo .modal-content .modal-body {
+  padding: 0;
+}
+
+.modalVideo .modal-content .close {
+  position: absolute;
+  top: -30px;
+  right: -10px;
+  z-index: 100;
+  opacity: 1;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 10px;
+  color: #fff;
+  text-shadow: none;
+  background: transparent;
+  padding: 0 0 9px 0;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .aviso div {
@@ -255,6 +291,9 @@ p {
   }
   .cookies .box .btn_cookie {
     margin-top: 20px;
+  }
+  .modalVideo .modal-dialog {
+    margin: 35% auto;
   }
 }
 /*# sourceMappingURL=base.css.map */

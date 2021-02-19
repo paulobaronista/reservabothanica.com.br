@@ -2,7 +2,9 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <p>breve lançamento - maracaju - ms</p>
+                <p>EM BREVE O MELHOR RESIDENCIAL DE MARACAJU. COMPARE E SE SURPREENDA!*<br>
+                    *O EMPREENDIMENTO SOMENTE SERÁ COMERCIALIZADO APÓS O REGISTRO DE INCORPORAÇÃO.
+                </p>
             </div>
         </div>
     </div>
@@ -10,14 +12,19 @@
 <div class="container-fluid padding-off boxLogo wow fadeInUp" data-wow-delay="0.5s">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo-reserva-bothanica.png" alt="Reserva Bothanica">
+                <p>ESTILO NATURALMENTE EXCLUSIVO DE VIVER.</p>
             </div>
         </div>
     </div>
 </div>
 <div class="galeria wow fadeInUp" data-wow-delay="1s">
     <section class="galeria-reserva slider">
+        <div>
+            <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-08.jpg" alt="Reserva Bothanica">
+            <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-08-mobile.jpg" alt="Reserva Bothanica">
+        </div>
         <div>
             <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-01.jpg" alt="Reserva Bothanica">
             <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-01-mobile.jpg" alt="Reserva Bothanica">
@@ -27,12 +34,24 @@
             <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-02-mobile.jpg" alt="Reserva Bothanica">
         </div>
         <div>
+            <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-06.jpg" alt="Reserva Bothanica">
+            <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-06-mobile.jpg" alt="Reserva Bothanica">
+        </div>
+        <div>
             <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-03.jpg" alt="Reserva Bothanica">
             <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-03-mobile.jpg" alt="Reserva Bothanica">
         </div>
         <div>
+            <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-07.jpg" alt="Reserva Bothanica">
+            <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-07-mobile.jpg" alt="Reserva Bothanica">
+        </div>
+        <div>
             <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-04.jpg" alt="Reserva Bothanica">
             <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-04-mobile.jpg" alt="Reserva Bothanica">
+        </div>
+        <div>
+            <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-05.jpg" alt="Reserva Bothanica">
+            <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-05-mobile.jpg" alt="Reserva Bothanica">
         </div>
     </section>
 </div>
@@ -65,6 +84,9 @@
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/info-home-05.jpg" alt="Reserva Bothanica">
                 </div>
             </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <small style="color: #000; padding-top:5px">Imagens ilustrativas e do local</small>
+            </div>
         </div>
     </div>
 </div>
@@ -72,8 +94,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center wow fadeInUp">
-                <p>residencial fechado de alto padrão<br>
-                    Terrenos a partir de 300 m²</p>
+                <p>residencial fechado de alto padrão</p>
             </div>
         </div>
     </div>
@@ -91,31 +112,37 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer wow fadeInLeftBig">
                     <a href="<?= base_url(); ?>assets/images/galeria/portaria.jpg" data-lightbox="galeria">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/portaria.jpg" alt="Portaria">
+                        <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativa</small>
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer wow fadeInRightBig">
                     <a href="<?= base_url(); ?>assets/images/galeria/piscina.jpg" data-lightbox="galeria">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/piscina.jpg" alt="Piscina">
+                        <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativa</small>
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer wow fadeInLeftBig">
                     <a href="<?= base_url(); ?>assets/images/galeria/quadra-tenis.jpg" data-lightbox="galeria">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/quadra-tenis.jpg" alt="Quadra de Tênis">
+                        <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativa</small>
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer wow fadeInRightBig">
                     <a href="<?= base_url(); ?>assets/images/galeria/fitness.jpg" data-lightbox="galeria">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/fitness.jpg" alt="Fitness">
+                        <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativa</small>
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer wow fadeInLeftBig">
                     <a href="<?= base_url(); ?>assets/images/galeria/gourmet.jpg" data-lightbox="galeria">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/gourmet.jpg" alt="Espaço Gourmet">
+                        <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativa</small>
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer wow fadeInRightBig">
                     <a href="<?= base_url(); ?>assets/images/galeria/brinquedoteca.jpg" data-lightbox="galeria">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/brinquedoteca.jpg" alt="Brinquedoteca">
+                        <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativa</small>
                     </a>
                 </div>
             </div>
@@ -162,17 +189,20 @@
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/playground.jpg" alt="Playground">
                         </a>
                     </div>
-                    <!-- <div>
+                    <div>
                         <a href="<?= base_url(); ?>assets/images/galeria/PERSPECTIVAS-PADRAO-P-PAULO8.jpg" data-lightbox="galeria">
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/mall.jpg" alt="Mall">
                         </a>
-                    </div> -->
+                    </div>
                     <div>
                         <a href="<?= base_url(); ?>assets/images/galeria/PERSPECTIVAS-PADRAO-P-PAULO9.jpg" data-lightbox="galeria">
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/praca.jpg" alt="Praça">
                         </a>
                     </div>
                 </section>
+            </div>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0 col-lg-8 col-lg-offset-2 padding-off-mobile">
+                <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativas</small>
             </div>
         </div>
     </div>
@@ -209,7 +239,7 @@
                                     criado pelo maior<br> arquiteto do país,<br>
                                     o premiado Benedito Abbud.</p>
                             </a>
-                            <a class="video" href="#">ASSISTA O VÍDEO</a>
+                            <a class="video" href="#" data-toggle="modal" data-target="#myVideo">ASSISTA O VÍDEO</a>
                         </div>
                     </div>
                 </div>
@@ -218,13 +248,13 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 wow fadeInRightBig">
                     <div class="media">
                         <div class="media-left media-middle">
-                            <a href="">
+                            <a href="https://www.instagram.com/castro_arquitetura/" target="_blank">
                                 <img class="media-object" src="<?= base_url(); ?>assets/images/castro.jpg" alt="Studio Castro">
                                 <img class="img-responsive center-block margin-top-30" src="<?= base_url(); ?>assets/images/logo-studio-castro.png" alt="Studio Castro">
                             </a>
                         </div>
                         <div class="media-body">
-                            <a href="">
+                            <a href="https://www.instagram.com/castro_arquitetura/" target="_blank">
                                 <p>Projeto Arquitetônico<br>
                                     assinado por um<br>
                                     dos maiores escritórios<br>
@@ -243,7 +273,7 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center wow fadeInUp">
                 <p>
-                    área com 260.000 M² de muito verde,<br>
+                    área com 240.000 M² de muito verde,<br>
                     LAZER, SOFISTAÇÃO E SEGURANÇA 24 HORAS.
                 </p>
             </div>
@@ -258,13 +288,16 @@
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lotes.png" alt="Lotes">
                 </a>
             </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" style="padding-top: 20px; padding-bottom: 20px;">
+                <h4 style="color: #000; padding-top:5px">Implantação meramente ilustrativa</h4>
+            </div>
         </div>
     </div>
 </div>
 <div class="container-fluid padding-off" style="background-color: #9e8e52; padding-top:30px; padding-bottom: 30px;">
     <div class="container">
         <div class="row">
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">  
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/tenis.jpg" alt="Tênis">
             </div>
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
@@ -273,18 +306,26 @@
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/brinde.jpg" alt="Brinde">
             </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <small style="color: #fff; padding-top:5px">Imagens Ilustrativas</small>
+            </div>
         </div>
     </div>
 </div>
 <div class="container-fluid padding-off contato">
     <div class="container wow fadeInUpBig">
         <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off text-center" style="margin-bottom: 20px;">
+                <p>
+                    *IMAGENS MERAMENTE ILUSTRATIVAS, SUJEITO À ALTERAÇÃO. O EMPREENDIMENTO SOMENTE SERÁ <br>
+                    COMERCIALIZADO APÓS O REGISTRO DO INCORPORAÇÃO.
+                </p>
+            </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off text-center">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/icone-contato.png" alt="Logo">
                 <p class="tt">contato</p>
                 <p class="txt">
-                    Saiba mais. Preencha abaixo e retornaremos em breve,<br>
-                    se preferir agende uma visita com consultor.
+                    Saiba mais. Preencha abaixo e retornaremos em breve.
                 </p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off">
@@ -338,12 +379,12 @@
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
                 <ul class="nav navbar-nav">
                     <li><a href="<?php echo base_url(); ?>politicadeprivacidade">Política de privacidade</a></li>
-                    <li><a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições</a></li>
+                    <!-- <li><a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições</a></li> -->
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 margin-top-15">
                 <p>
-                    IMAGENS MERAMENTE ILUSTRATIVAS, SUJEITO À ALTERAÇÃO. O EMPREENDIMENTO SOMENTE SERÁ COMERCIALIZADO APÓS O REGISTRO DO LOTEAMENTO.
+                    *IMAGENS MERAMENTE ILUSTRATIVAS, SUJEITO À ALTERAÇÃO. O EMPREENDIMENTO SOMENTE SERÁ COMERCIALIZADO APÓS O REGISTRO DO INCORPORAÇÃO.
                 </p>
             </div>
         </div>
@@ -387,11 +428,27 @@ if (isset($email_enviado))
         <div class="col-xs-12 col-sm-9 col-md-9">
             <p>
                 Este site utiliza cookies para melhorar sua experiência de navegação, permitir um início de sessão seguro, recolher estatísticas e oferecer conteúdo adequado aos seus interesses. Ao continuar sua navegação, considera-se aceito nossos
-                <a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições</a> e a nossa <a href="<?php echo base_url(); ?>politicadeprivacidade">Política de Privacidade</a>.
+                <!--<a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições</a>--> e a nossa <a href="<?php echo base_url(); ?>politicadeprivacidade">Política de Privacidade</a>.
             </p>
         </div>
         <div class="col-xs-12 col-sm-3 col-md-3">
             <a href="#" class="btn_cookie btn center-block">Aceito</a>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Video -->
+<div class="modal fade modalVideo" id="myVideo" tabindex="-1" role="dialog" aria-labelledby="myVideoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <div class="modal-body">
+                <video width="100%" height="auto" controls>
+                    <source src="<?= base_url(); ?>assets/video/Benedito_Abbud.mp4" type="video/mp4">
+                    <source src="<?= base_url(); ?>assets/video/Benedito_Abbud.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </div>
     </div>
 </div>

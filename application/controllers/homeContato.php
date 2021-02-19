@@ -8,8 +8,8 @@ class homeContato extends CI_Controller{
     }
     public function index(){
         $data['title'] = 'Reserva Bothanica';
-        $data['description'] = 'Residencial fechado de alto padrão Terrenos a partir de 300 m²';
-        $data['keywords'] = 'residencial, fechado, alto padrão, terrenos, 300m²';
+        $data['description'] = 'Estilo naturalmente exclusivo de viver';
+        $data['keywords'] = 'Reserva Bothanica; loteamento Maracaju; loteamento dourados ;lotes ms; corpal; loteamento royale premium; royale premium Maracaju';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -23,9 +23,9 @@ class homeContato extends CI_Controller{
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@terradouradainc.com.br", "Reserva Bothanica");
-            $this->email->to('contato@terradouradainc.com.br');
-            $this->email->cc('paulobaronista@gmail.com');
+            $this->email->from("site@reservabothanica.com.br", "Reserva Bothanica");
+            $this->email->to('site@reservabothanica.com.br');
+            $this->email->cc('contato@terradouradainc.com.br, rafael@terradouradainc.com.br, renata@spicycomm.com.br, leadsreservabothanica@gmail.com, paulobaronista@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -52,8 +52,8 @@ class homeContato extends CI_Controller{
 
     public function obrigado(){
         $data['title'] = 'Reserva Bothanica';
-        $data['description'] = 'Residencial fechado de alto padrão Terrenos a partir de 300 m²';
-        $data['keywords'] = 'residencial, fechado, alto padrão, terrenos, 300m²';
+        $data['description'] = 'Estilo naturalmente exclusivo de viver';
+        $data['keywords'] = 'Reserva Bothanica; loteamento Maracaju; loteamento dourados ;lotes ms; corpal; loteamento royale premium; royale premium Maracaju';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -66,8 +66,8 @@ class homeContato extends CI_Controller{
 
     public function fail(){
         $data['title'] = 'Reserva Bothanica';
-        $data['description'] = 'Residencial fechado de alto padrão Terrenos a partir de 300 m²';
-        $data['keywords'] = 'residencial, fechado, alto padrão, terrenos, 300m²';
+        $data['description'] = 'Estilo naturalmente exclusivo de viver';
+        $data['keywords'] = 'Reserva Bothanica; loteamento Maracaju; loteamento dourados ;lotes ms; corpal; loteamento royale premium; royale premium Maracaju';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);
