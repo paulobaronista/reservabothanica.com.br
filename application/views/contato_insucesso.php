@@ -294,6 +294,63 @@
         </div>
     </div>
 </div>
+<div class="container-fluid padding-off boxTexto">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center wow fadeInUp">
+                <p>
+                    Desfrute sua generosa<br>
+                    e deliciosa reserva de sabores,<br>
+                    aromas e bem-estar.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid padding-off" style="padding-bottom: 20px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 wow fadeInUp margin-top-30" data-wow-delay="0.2s">
+                <a href="<?= base_url(); ?>assets/images/fotos-local/Cond_Maracaju_02_21-2.jpg" data-lightbox="fotos-local">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/fotos-local/fotos-local-01.jpg" alt="Fotos do Local">
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 wow fadeInUp margin-top-30" data-wow-delay="0.4s">
+                <a href="<?= base_url(); ?>assets/images/fotos-local/Cond_Maracaju_02_21-39.jpg" data-lightbox="fotos-local">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/fotos-local/fotos-local-02.jpg" alt="Fotos do Local">
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 wow fadeInUp margin-top-30" data-wow-delay="0.6s">
+                <a href="<?= base_url(); ?>assets/images/fotos-local/Cond_Maracaju_02_21-38.jpg" data-lightbox="fotos-local">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/fotos-local/fotos-local-03.jpg" alt="Fotos do Local">
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 wow fadeInUp margin-top-30" data-wow-delay="0.8s">
+                <a href="<?= base_url(); ?>assets/images/fotos-local/Cond_Maracaju_02_21-30.jpg" data-lightbox="fotos-local">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/fotos-local/fotos-local-04.jpg" alt="Fotos do Local">
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 wow fadeInUp margin-top-30" data-wow-delay="1.0s">
+                <a href="<?= base_url(); ?>assets/images/fotos-local/Cond_Maracaju_02_21-19.jpg" data-lightbox="fotos-local">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/fotos-local/fotos-local-05.jpg" alt="Fotos do Local">
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 wow fadeInUp margin-top-30" data-wow-delay="1.2s">
+                <a href="<?= base_url(); ?>assets/images/fotos-local/Cond_Maracaju_02_21-18.jpg" data-lightbox="fotos-local">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/fotos-local/fotos-local-06.jpg" alt="Fotos do Local">
+                </a>
+            </div>
+            <a href="<?= base_url(); ?>assets/images/fotos-local/Cond_Maracaju_02_21-17.jpg" data-lightbox="fotos-local"></a>
+            <a href="<?= base_url(); ?>assets/images/fotos-local/Cond_Maracaju_02_21-15.jpg" data-lightbox="fotos-local"></a>
+            <a href="<?= base_url(); ?>assets/images/fotos-local/Cond_Maracaju_02_21-11.jpg" data-lightbox="fotos-local"></a>
+            <a href="<?= base_url(); ?>assets/images/fotos-local/Cond_Maracaju_02_21-3.jpg" data-lightbox="fotos-local"></a>
+            <a href="<?= base_url(); ?>assets/images/fotos-local/Cond_Maracaju_02_21-2.jpg" data-lightbox="fotos-local"></a>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <small style="color: #9e8e52;font-size: 17px;line-height: 17px;padding-top: 8px;display: block;">Fotos do Local</small>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container-fluid padding-off" style="background-color: #9e8e52; padding-top:30px; padding-bottom: 30px;">
     <div class="container">
         <div class="row">

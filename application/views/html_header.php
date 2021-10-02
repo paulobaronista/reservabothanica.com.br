@@ -35,9 +35,9 @@
     );
     echo meta($meta);
     echo link_tag('assets/css/bootstrap.min.css');
-    echo link_tag('assets/css/style.css?v=1.2.5');
+    echo link_tag('assets/css/style.css?v=1.2.6');
     echo link_tag('assets/css/lightbox.min.css');
-    echo link_tag('assets/css/slick.css?v=1.2.4');
+    echo link_tag('assets/css/slick.css?v=1.2.6');
     echo link_tag('assets/css/slick-theme.css');
     echo link_tag('assets/css/animate.css');
     ?>
