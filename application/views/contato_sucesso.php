@@ -284,8 +284,8 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wow fadeInUpBig">
-                <a href="<?= base_url(); ?>assets/images/galeria/lote-full.jpg" target="_blank">
-                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lotes.png" alt="Lotes">
+                <a href="<?= base_url(); ?>assets/images/galeria/implantacao-full.jpg" target="_blank">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/implantacao.png" alt="Lotes">
                 </a>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" style="padding-top: 20px; padding-bottom: 20px;">
@@ -311,7 +311,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 wow fadeInUp margin-top-30" data-wow-delay="0.2s">
-                <a href="<?= base_url(); ?>assets/images/fotos-local/Cond_Maracaju_02_21-2.jpg" data-lightbox="fotos-local">
+                <a href="<?= base_url(); ?>assets/images/fotos-local/Terra_Dourada_Reserva_Bothanica_Fotomontagem_HR.jpg" data-lightbox="fotos-local">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/fotos-local/fotos-local-01.jpg" alt="Fotos do Local">
                 </a>
             </div>
