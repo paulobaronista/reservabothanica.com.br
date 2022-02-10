@@ -155,48 +155,103 @@
             <div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0 col-lg-8 col-lg-offset-2 padding-off-mobile wow fadeInUp">
                 <section class="galeria-fotos-slider slider">
                     <div>
-                        <a href="<?= base_url(); ?>assets/images/galeria/PERSPECTIVAS-PADRAO-P-PAULO.jpg" data-lightbox="galeria">
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/bosque.jpg" alt="Bosque">
+                        <a href="<?= base_url(); ?>assets/images/galeria/2_Terra_Dourada_Reserva_Bothanica_Portaria_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-portaria.jpg" alt="Portaria">
                         </a>
                     </div>
                     <div>
-                        <a href="<?= base_url(); ?>assets/images/galeria/PERSPECTIVAS-PADRAO-P-PAULO2.jpg" data-lightbox="galeria">
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/alamedas.jpg" alt="Alamedas">
+                        <a href="<?= base_url(); ?>assets/images/galeria/3_Terra_Dourada_Reserva_Bothanica_Alameda_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-alameda.jpg" alt="Alameda">
                         </a>
                     </div>
                     <div>
-                        <a href="<?= base_url(); ?>assets/images/galeria/PERSPECTIVAS-PADRAO-P-PAULO3.jpg" data-lightbox="galeria">
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/piscina-2.jpg" alt="Piscina">
+                        <a href="<?= base_url(); ?>assets/images/galeria/4_Terra_Dourada_Reserva_Bothanica_Bosque_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-bosque.jpg" alt="Bosque">
                         </a>
                     </div>
                     <div>
-                        <a href="<?= base_url(); ?>assets/images/galeria/PERSPECTIVAS-PADRAO-P-PAULO4.jpg" data-lightbox="galeria">
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/quadra-poli.jpg" alt="Quadra Poliesportiva">
+                        <a href="<?= base_url(); ?>assets/images/galeria/5_Terra_Dourada_Reserva_Bothanica_Voo_Clube_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-aereaclube.jpg" alt="Vista Aérea do Clube">
                         </a>
                     </div>
                     <div>
-                        <a href="<?= base_url(); ?>assets/images/galeria/PERSPECTIVAS-PADRAO-P-PAULO5.jpg" data-lightbox="galeria">
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/salao-festa.jpg" alt="Salão de Festa">
+                        <a href="<?= base_url(); ?>assets/images/galeria/6_Terra_Dourada_Reserva_Bothanica_Voo_Piscina_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-aereapiscina.jpg" alt="Vista Aérea da Piscina">
                         </a>
                     </div>
                     <div>
-                        <a href="<?= base_url(); ?>assets/images/galeria/PERSPECTIVAS-PADRAO-P-PAULO6.jpg" data-lightbox="galeria">
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/bar.jpg" alt="Bar">
+                        <a href="<?= base_url(); ?>assets/images/galeria/7_Terra_Dourada_Reserva_Bothanica_Piscina_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-piscina.jpg" alt="Piscina">
                         </a>
                     </div>
                     <div>
-                        <a href="<?= base_url(); ?>assets/images/galeria/PERSPECTIVAS-PADRAO-P-PAULO7.jpg" data-lightbox="galeria">
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/playground.jpg" alt="Playground">
+                        <a href="<?= base_url(); ?>assets/images/galeria/8_Terra_Dourada_Reserva_Bothanica_Lounge_Piscina_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-loungepiscina.jpg" alt="Lounge da Piscina">
                         </a>
                     </div>
                     <div>
-                        <a href="<?= base_url(); ?>assets/images/galeria/PERSPECTIVAS-PADRAO-P-PAULO8.jpg" data-lightbox="galeria">
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/mall.jpg" alt="Mall">
+                        <a href="<?= base_url(); ?>assets/images/galeria/9_Terra_Dourada_Reserva_Bothanica_Quadra_Tennis_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-quadratenis.jpg" alt="Quadra de Tênis">
                         </a>
                     </div>
                     <div>
-                        <a href="<?= base_url(); ?>assets/images/galeria/PERSPECTIVAS-PADRAO-P-PAULO9.jpg" data-lightbox="galeria">
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/praca.jpg" alt="Praça">
+                        <a href="<?= base_url(); ?>assets/images/galeria/10_Terra_Dourada_Reserva_Bothanica_Beach_Sports_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-beachsports.jpg" alt="Beach Sports">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="<?= base_url(); ?>assets/images/galeria/11_Terra_Dourada_Reserva_Bothanica_Campo_Society_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-camposociety.jpg" alt="Campo Society">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="<?= base_url(); ?>assets/images/galeria/12_Terra_Dourada_Reserva_Bothanica_Quadra_Poli_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-quadrapoli.jpg" alt="Quadra Poliesportiva">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="<?= base_url(); ?>assets/images/galeria/13_Terra_Dourada_Reserva_Bothanica_Pista_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-pistacaminhada.jpg" alt="Pista de Caminhada">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="<?= base_url(); ?>assets/images/galeria/14_Terra_Dourada_Reserva_Bothanica_Playground_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-playground.jpg" alt="Playground">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="<?= base_url(); ?>assets/images/galeria/15_Terra_Dourada_Reserva_Bothanica_Pergolado_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-pergolado.jpg" alt="Pergolado">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="<?= base_url(); ?>assets/images/galeria/16_Terra_Dourada_Reserva_Bothanica_Festas_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-salaofesta.jpg" alt="Salão de Festas">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="<?= base_url(); ?>assets/images/galeria/17_Terra_Dourada_Reserva_Bothanica_Gourmet_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-gourmet.jpg" alt="Espaço Gourmet">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="<?= base_url(); ?>assets/images/galeria/18_Terra_Dourada_Reserva_Bothanica_Fitness_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-fitness.jpg" alt="Fitness">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="<?= base_url(); ?>assets/images/galeria/19_Terra_Dourada_Reserva_Bothanica_Brinquedoteca_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-brinquedoteca.jpg" alt="Brinquedoteca">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="<?= base_url(); ?>assets/images/galeria/20_Terra_Dourada_Reserva_Bothanica_Street_Mall_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-streetmall.jpg" alt="Street Mall">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="<?= base_url(); ?>assets/images/galeria/21_Terra_Dourada_Reserva_Bothanica_Mall_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-mall.jpg" alt="Mall">
                         </a>
                     </div>
                 </section>
@@ -284,8 +339,8 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wow fadeInUpBig">
-                <a href="<?= base_url(); ?>assets/images/galeria/lote-full.jpg" target="_blank">
-                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lotes.png" alt="Lotes">
+                <a href="<?= base_url(); ?>assets/images/galeria/implantacao-full.jpg" target="_blank">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/implantacao.png" alt="Lotes">
                 </a>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" style="padding-top: 20px; padding-bottom: 20px;">
@@ -311,7 +366,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 wow fadeInUp margin-top-30" data-wow-delay="0.2s">
-                <a href="<?= base_url(); ?>assets/images/fotos-local/Cond_Maracaju_02_21-2.jpg" data-lightbox="fotos-local">
+                <a href="<?= base_url(); ?>assets/images/fotos-local/Terra_Dourada_Reserva_Bothanica_Fotomontagem_HR.jpg" data-lightbox="fotos-local">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/fotos-local/fotos-local-01.jpg" alt="Fotos do Local">
                 </a>
             </div>
