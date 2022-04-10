@@ -766,7 +766,7 @@ p {
 
 footer {
   background-color: #edeae1;
-  padding-top: 60px;
+  padding-top: 45px;
   padding-bottom: 30px;
 }
 
@@ -780,6 +780,7 @@ footer figcaption {
   font-size: 14px;
   line-height: 14px;
   margin-bottom: 10px;
+  margin-top: 15px;
 }
 
 footer p {
