@@ -2,9 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <p>EM BREVE O MELHOR RESIDENCIAL DE MARACAJU. COMPARE E SE SURPREENDA!*<br>
-                    *O EMPREENDIMENTO SOMENTE SERÁ COMERCIALIZADO APÓS O REGISTRO DE INCORPORAÇÃO.
-                </p>
+                <p>NO MELHOR DE MARACAJU, UM NOVO E EXCLUSIVO ESTILO DE VIVER ESTÁ RESERVADO</p>
             </div>
         </div>
     </div>
@@ -60,8 +58,11 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wow fadeInUp">
                 <p>
-                    UM VERDADEIRO PRIVILÉGIO SE DEFINE POR SUA EXCLUSIVIDADE. PARA QUEM DESEJA O MELHOR, VIVER BEM É UMA CONDIÇÃO NATURAL . FAZ PARTE DO SEU DIA, DE SUA ROTINA,DE SEU ESTILO. RESERVA BOTHANICA NASCE PARA VALORIZAR AINDA MAIS SEU JEITO DE VIVER. UM RESIDENCIAL FECHADO DE ALTO PADRÃO QUE IRÁ RECEBER SUA CASA E ENRIQUECER OS SEUS DIAS. MUITO ALÉM DE SEGURANÇA E TRANQUILIDADE, VOCÊ E SUA FAMÍLIA TERÃO UM CLUBE COM LAZER COMPLETO, ENVOLVIDO POR UM BOSQUE NATIVO PRESERVADO E PRIVATIVO PARA OS MORADORES. RESERVA BOTHANICA É UM ENDEREÇO ENCANTADOR, COM UMA ATMOSFERA ACONCHEGANTE E UM
-                    PAISAGISMO INSPIRADOR E HARMONIOSO. TUDO NATURALMENTE DE ACORDO COM VOCÊ E SEU NOVO ESTILO EXCLUSIVO DE VIVER .
+                    UM VERDADEIRO PRIVILÉGIO SE DEFINE POR SUA EXCLUSIVIDADE. PARA QUEM DESEJA O MELHOR, VIVER BEM É UMA CONDIÇÃO NATURAL. FAZ PARTE DO SEU DIA, DE SUA ROTINA, 
+                    DE SEU ESTILO. RESERVA BOTHANICA NASCE PARA VALORIZAR AINDA MAIS SEU JEITO DE VIVER. LOCALIZADO NO ENDEREÇO MAIS NOBRE DE MARACAJU, AO FINAL DA AVENIDA MARIO CORRÊA, 
+                    RESERVA BOTHANICA É UM LOTEAMENTO FECHADO DE ALTO PADRÃO PRONTO PARA RECEBER SUA CASA E ENRIQUECER OS SEUS DIAS. MUITO ALÉM DE SEGURANÇA E TRANQUILIDADE, VOCÊ E SUA FAMÍLIA 
+                    TERÃO UM CLUBE COM LAZER COMPLETO, ENVOLVIDO POR UM BOSQUE NATIVO PRESERVADO E PRIVATIVO PARA OS MORADORES. RESERVA BOTHANICA É UM ENDEREÇO ENCANTADOR, COM UMA ATMOSFERA ACONCHEGANTE 
+                    E UM PAISAGISMO INSPIRADOR E HARMONIOSO. TUDO NATURALMENTE DE ACORDO COM VOCÊ E SEU NOVO ESTILO EXCLUSIVO DE VIVER
                 </p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off box-info-home">
@@ -94,7 +95,9 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center wow fadeInUp">
-                <p>residencial fechado de alto padrão</p>
+                <p>Loteamento fechado de alto padrão <br />
+                    Terreno de 300 m² | Clube com lazer completo
+                </p>
             </div>
         </div>
     </div>
@@ -245,8 +248,8 @@
                         </a>
                     </div>
                     <div>
-                        <a href="<?= base_url(); ?>assets/images/galeria/20_Terra_Dourada_Reserva_Bothanica_Street_Mall_HR.jpg" data-lightbox="galeria">
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-streetmall.jpg" alt="Street Mall">
+                        <a href="<?= base_url(); ?>assets/images/galeria/20_Terra_Dourada_Reserva_Bothanica_Strip_Mall_HR.jpg" data-lightbox="galeria">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/carrossel-stripmall.jpg" alt="Street Mall">
                         </a>
                     </div>
                     <div>
@@ -328,14 +331,14 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center wow fadeInUp">
                 <p>
-                    área com 240.000 M² de muito verde,<br>
+                    área com 260.000 M² de muito verde,<br>
                     LAZER, SOFISTAÇÃO E SEGURANÇA 24 HORAS.
                 </p>
             </div>
         </div>
     </div>
 </div>
-<div class="container-fluid padding-off">
+<div class="container-fluid padding-off" style="background-color: #f3f0e8;">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wow fadeInUpBig">
@@ -344,7 +347,7 @@
                 </a>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" style="padding-top: 20px; padding-bottom: 20px;">
-                <h4 style="color: #000; padding-top:5px">Implantação meramente ilustrativa</h4>
+                <h4 style="color: #000; padding-top:5px">Perspectiva artística da implantação</h4>
             </div>
         </div>
     </div>
@@ -427,12 +430,6 @@
 <div class="container-fluid padding-off contato">
     <div class="container wow fadeInUpBig">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off text-center" style="margin-bottom: 20px;">
-                <p>
-                    *IMAGENS MERAMENTE ILUSTRATIVAS, SUJEITO À ALTERAÇÃO. O EMPREENDIMENTO SOMENTE SERÁ <br>
-                    COMERCIALIZADO APÓS O REGISTRO DO INCORPORAÇÃO.
-                </p>
-            </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off text-center">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/icone-contato.png" alt="Logo">
                 <p class="tt">contato</p>
@@ -486,6 +483,7 @@
                 <figure>
                     <figcaption>RealizaçÃO:</figcaption>
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terra-dourada.png" alt="Terra Dourada">
+                    <figcaption>terradouradainc.com.br</figcaption>
                 </figure>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
@@ -496,7 +494,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 margin-top-15">
                 <p>
-                    *IMAGENS MERAMENTE ILUSTRATIVAS, SUJEITO À ALTERAÇÃO. O EMPREENDIMENTO SOMENTE SERÁ COMERCIALIZADO APÓS O REGISTRO DO INCORPORAÇÃO.
+                    LOTEAMENTO REGISTRADO: R4 - MATRÍCULA 23.113 - CRI - MARACAJU
                 </p>
             </div>
         </div>
