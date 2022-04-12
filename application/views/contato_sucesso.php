@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <p>NO MELHOR DE MARACAJU, UM NOVO E EXCLUSIVO ESTILO DE VIVER ESTÁ RESERVADO</p>
+                <p>NO MELHOR DE MARACAJU, UM NOVO E EXCLUSIVO ESTILO DE VIVER ESTÁ RESERVADO PARA SUA FAMÍLIA.</p>
             </div>
         </div>
     </div>
@@ -62,7 +62,7 @@
                     DE SEU ESTILO. RESERVA BOTHANICA NASCE PARA VALORIZAR AINDA MAIS SEU JEITO DE VIVER. LOCALIZADO NO ENDEREÇO MAIS NOBRE DE MARACAJU, AO FINAL DA AVENIDA MARIO CORRÊA, 
                     RESERVA BOTHANICA É UM LOTEAMENTO FECHADO DE ALTO PADRÃO PRONTO PARA RECEBER SUA CASA E ENRIQUECER OS SEUS DIAS. MUITO ALÉM DE SEGURANÇA E TRANQUILIDADE, VOCÊ E SUA FAMÍLIA 
                     TERÃO UM CLUBE COM LAZER COMPLETO, ENVOLVIDO POR UM BOSQUE NATIVO PRESERVADO E PRIVATIVO PARA OS MORADORES. RESERVA BOTHANICA É UM ENDEREÇO ENCANTADOR, COM UMA ATMOSFERA ACONCHEGANTE 
-                    E UM PAISAGISMO INSPIRADOR E HARMONIOSO. TUDO NATURALMENTE DE ACORDO COM VOCÊ E SEU NOVO ESTILO EXCLUSIVO DE VIVER
+                    E UM PAISAGISMO INSPIRADOR E HARMONIOSO. TUDO NATURALMENTE DE ACORDO COM VOCÊ E SEU NOVO ESTILO EXCLUSIVO DE VIVER.
                 </p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off box-info-home">
@@ -115,37 +115,37 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer wow fadeInLeftBig">
                     <a href="<?= base_url(); ?>assets/images/galeria/portaria.jpg" data-lightbox="galeria">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/portaria.jpg" alt="Portaria">
-                        <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativa</small>
+                        <small style="color: #fff; padding-top:5px">Perspectivas artísticas</small>
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer wow fadeInRightBig">
                     <a href="<?= base_url(); ?>assets/images/galeria/piscina.jpg" data-lightbox="galeria">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/piscina.jpg" alt="Piscina">
-                        <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativa</small>
+                        <small style="color: #fff; padding-top:5px">Perspectivas artísticas</small>
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer wow fadeInLeftBig">
                     <a href="<?= base_url(); ?>assets/images/galeria/quadra-tenis.jpg" data-lightbox="galeria">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/quadra-tenis.jpg" alt="Quadra de Tênis">
-                        <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativa</small>
+                        <small style="color: #fff; padding-top:5px">Perspectivas artísticas</small>
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer wow fadeInRightBig">
                     <a href="<?= base_url(); ?>assets/images/galeria/fitness.jpg" data-lightbox="galeria">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/fitness.jpg" alt="Fitness">
-                        <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativa</small>
+                        <small style="color: #fff; padding-top:5px">Perspectivas artísticas</small>
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer wow fadeInLeftBig">
                     <a href="<?= base_url(); ?>assets/images/galeria/gourmet.jpg" data-lightbox="galeria">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/gourmet.jpg" alt="Espaço Gourmet">
-                        <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativa</small>
+                        <small style="color: #fff; padding-top:5px">Perspectivas artísticas</small>
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img-lazer wow fadeInRightBig">
                     <a href="<?= base_url(); ?>assets/images/galeria/brinquedoteca.jpg" data-lightbox="galeria">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/brinquedoteca.jpg" alt="Brinquedoteca">
-                        <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativa</small>
+                        <small style="color: #fff; padding-top:5px">Perspectivas artísticas</small>
                     </a>
                 </div>
             </div>
@@ -260,7 +260,7 @@
                 </section>
             </div>
             <div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0 col-lg-8 col-lg-offset-2 padding-off-mobile">
-                <small style="color: #fff; padding-top:5px">Perspectiva meramente ilustrativas</small>
+                <small style="color: #fff; padding-top:5px">Perspectivas artísticas</small>
             </div>
         </div>
     </div>
@@ -483,7 +483,7 @@
                 <figure>
                     <figcaption>RealizaçÃO:</figcaption>
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terra-dourada.png" alt="Terra Dourada">
-                    <figcaption>terradouradainc.com.br</figcaption>
+                    <figcaption><a style="color: #000000;" href="https://terradouradainc.com.br/" target="_blank">terradouradainc.com.br</a></figcaption>
                 </figure>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
