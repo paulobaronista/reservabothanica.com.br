@@ -20,10 +20,6 @@
 <div class="galeria wow fadeInUp" data-wow-delay="1s">
     <section class="galeria-reserva slider">
         <div>
-            <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-08.jpg" alt="Reserva Bothanica">
-            <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-08-mobile.jpg" alt="Reserva Bothanica">
-        </div>
-        <div>
             <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-01.jpg" alt="Reserva Bothanica">
             <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-01-mobile.jpg" alt="Reserva Bothanica">
         </div>
@@ -32,16 +28,8 @@
             <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-02-mobile.jpg" alt="Reserva Bothanica">
         </div>
         <div>
-            <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-06.jpg" alt="Reserva Bothanica">
-            <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-06-mobile.jpg" alt="Reserva Bothanica">
-        </div>
-        <div>
             <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-03.jpg" alt="Reserva Bothanica">
             <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-03-mobile.jpg" alt="Reserva Bothanica">
-        </div>
-        <div>
-            <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-07.jpg" alt="Reserva Bothanica">
-            <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-07-mobile.jpg" alt="Reserva Bothanica">
         </div>
         <div>
             <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-04.jpg" alt="Reserva Bothanica">
@@ -50,6 +38,18 @@
         <div>
             <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-05.jpg" alt="Reserva Bothanica">
             <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-05-mobile.jpg" alt="Reserva Bothanica">
+        </div>
+        <div>
+            <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-06.jpg" alt="Reserva Bothanica">
+            <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-06-mobile.jpg" alt="Reserva Bothanica">
+        </div>
+        <div>
+            <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-07.jpg" alt="Reserva Bothanica">
+            <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-07-mobile.jpg" alt="Reserva Bothanica">
+        </div>
+        <div>
+            <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-08.jpg" alt="Reserva Bothanica">
+            <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-08-mobile.jpg" alt="Reserva Bothanica">
         </div>
     </section>
 </div>
