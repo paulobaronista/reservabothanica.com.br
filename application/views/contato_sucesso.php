@@ -10,9 +10,13 @@
 <div class="container-fluid padding-off boxLogo wow fadeInUp" data-wow-delay="0.5s">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 filme text-center">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo-reserva-bothanica.png" alt="Reserva Bothanica">
                 <p>ESTILO NATURALMENTE EXCLUSIVO DE VIVER.</p>
+                <a href="#" data-toggle="modal" data-target="#modalVideo">
+                    <img class="img-responsive center-block filme-img hidden-xs" src="<?= base_url(); ?>assets/images/filme.png" alt="Filme">
+                    <img class="img-responsive center-block filme-img visible-xs" src="<?= base_url(); ?>assets/images/filme-mobile.png" alt="Filme">
+                </a>
             </div>
         </div>
     </div>
